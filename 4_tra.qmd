@@ -1,0 +1,31 @@
+# 4 Transparency (TRA)
+
+This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.
+
+## 4.1 Traceability
+
+The data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe the measures that you put into place to make your AI model traceable.| Specifically, you may want to focus on measures to continuously assess the quality of the input data to the AI system, to trace back which data was used by the AI system to make a certain decision or recommendation, or to continuously assess the quality of the output(s) of the AI system. These recommendations are not exhaustive.| 
+| In case of scientific publications associated with the toolbox: Describe how you adhered to reporting guidelines. In case you did not, justify the decision.| For example, model cards are a great way to increase transparency and traceability in the context of scientific publishing. [15]|
+| Describe how ethical dilemmas, challenges, and their related decisions are documented, and where solutions are recorded.| It is paramount from an ethical perspective to understand the decision making process over time.|
+
+## 4.2	Explainability
+
+Explainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system's explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g. layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency).
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe whether the AI models made for your use case need to be explainable.| Describe the decision-making process around the need for explainability. Justify the decisions made.|
+| In case you used explainability methods: Describe how you determined, which explainability methods were suitable for your use case.| A plethora of explainability methods exists. It is crucial to choose a method suitable for the use case at hand.|
+| In case you used explainability methods: Describe how you validated the explainability methods. If you did not, justify the decision.| Explainability methods need to be validated which is currently seldomly done.|
+
+## 4.3	Communication
+
+AI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system's level of accuracy, as well as its limitations.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe the mechanisms how you inform end-users of the model about the purpose, criteria and limitations of the AI model.| You may want to focus on whether and how you communicated the benefits, the technical limitations, and the potential risks.|

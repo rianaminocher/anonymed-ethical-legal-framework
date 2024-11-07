@@ -1,0 +1,31 @@
+# 5 Diversity, Non-discrimination, and Fairness (DIV)
+
+In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system’s life cycle. Besides the consideration and involvement of all affected stakeholders throughout the process, this also entails ensuring equal access through inclusive design processes as well as equal treatment. This requirement is closely linked with the principle of fairness.
+
+## 5.1	Avoidance of Bias
+
+Data sets used by AI systems (both for training and operation) may suffer from the inclusion of inadvertent historic bias, incompleteness and bad governance models. The continuation of such biases could lead to unintended (in)direct prejudice and discrimination against certain groups or people, potentially exacerbating prejudice and marginalisation. Harm can also result from the intentional exploitation of (consumer) biases or by engaging in unfair competition, such as the homogenisation of prices by means of collusion or a non-transparent market. Identifiable and discriminatory bias should be removed in the collection phase where possible. The way in which AI systems are developed (e.g. algorithms’ programming) may also suffer from unfair bias. This could be counteracted by putting in place oversight processes to analyse and address the system’s purpose, constraints, requirements and decisions in a clear and transparent manner. Moreover, hiring from diverse backgrounds, cultures and disciplines can ensure diversity of opinions and should be encouraged.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe how the demographics of the relevant target group subject to the AI processing or training have been defined, i.e. how does a representative dataset looks like.| To avoid bias it is paramount to have an understanding how a  representative dataset for the use case looks like.| 
+| Describe the results of the demographic features of the dataset before and after the generation/anonymization been done?| It is important that the datasets after processing of any kind, including attempts to preserve privacy, are not altered in a way that promotes unfair bias.|
+| Describe what type of fairness testing has been done on the AI models. Specifically, justify the choice of metrics and how they have been documented.| Has an evaluation been done on whether bias-preserving fairness metrics can be used? See checklist by Wachter et al. [16, p. 42]|
+| Describe the ratio of diversity (e.g. ethnicity, gender) within the project staff?| Diversity is an important factor to avoid bias.|
+| Describe how staff was trained to (educational and awareness initiatives) to be more aware of possible bias.| Training is a crucial factor to raise awareness of ethical design to avoid bias.| 
+
+## 5.2	Accessibility and universal design
+
+Particularly in business-to-consumer domains, systems should be user-centric and designed in a way that allows all people to use AI products or services, regardless of their age, gender, abilities or characteristics. Accessibility to this technology for persons with disabilities, which are present in all societal groups, is of particular importance. AI systems should not have a one-size-fits-all approach and should consider Universal Design principles addressing the widest possible range of users, following relevant accessibility standards. This will enable equitable access and active participation of all people in existing and emerging computer-mediated human activities and with regard to assistive technologies.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe how your AI model might impact potential end-users from a usability and accessibility perspective. Justify your design decisions.| Since this framework is mainly concerned with research use cases, it is evident that much of this rubric applies only to product development. However, it is still a necessary exercise to consider the impact on end-users. This can be as “little” as refraining from color schemes that are difficult for end-user with color blindness.| 
+
+## 5.3	Stakeholder participation
+
+In order to develop AI systems that are trustworthy, it is advisable to consult stakeholders who may directly or indirectly be affected by the system throughout its life cycle. It is beneficial to solicit regular feedback even after deployment and set up longer term mechanisms for stakeholder participation, for example by ensuring workers information, consultation and participation throughout the whole process of implementing AI systems at organisations.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe how stakeholders have been involved in the development of the AI model.  Justify your decisions.| You may want to consider stakeholder mapping, or stakeholder consultation, or stakeholder design participation via co-creation approaches.|

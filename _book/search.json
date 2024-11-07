@@ -1,0 +1,345 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ANONYMED Framework",
+    "section": "",
+    "text": "Overview\nThis website-version of the framework provides easy-to-click-through guidance for developing and auditing the models within the ANONY-MED toolbox. The framework thus accompanies the development of models within the ANONY-MED project.\nThe overall objective of the ANONY-MED project is the creation of a methodological toolbox for privacy-preserving healthcare AI model development that uses medical data. Specifically, the toolbox provides two methods:\nWhile data generated with 1) is particularly suitable for training AI models for diagnostics, the use of HE is recommended if anonymization of the data would impair the accuracy of the analyses. Both types of anonymization can be evaluated quantitatively in terms of their utility: on the basis of the precision of the predictions of the resulting AI models and the statistical analyses. At the same time, privacy metrics can be used to quantify the degree of anonymization.\nIn this framework, we would like to provide the toolbox users with programmatic guidance that extends beyond simple utility measures. The framework will enable users to identify and to tackle ethical considerations when developing AI models using the toolbox. The ANONY-MED project proposes three different use cases: for stroke, cardiology, and radiology. On one hand, this framework will serve as a resource for the developers of each of the use cases within the project to test the framework’s usefulness and relevance, and for the ethics team to audit the project results. At a later stage, based on the feedback and project results, the framework will be adapted and updated, and will be provided publicly with the toolbox as a resource for end users.\nThe framework considers general ethical challenges when developing medical AI but also considers specific challenges posed by the methods employed in the project, namely generative AI, homomorphic encryption (HE), and differential privacy. We also place a particular emphasis on considerations about privacy when using these methods for anonymization ofhealth data for data-sharing or for training AI models.\nGiven the scope of the ANONY-MED project, the presented framework will focus exclusively on the EU region, with its legislative prerequisites, such as the GDPR. The framework also assumes that the toolbox is used in a research setting.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to the ANONY-MED Framework</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "ANONYMED Ethical-Legal Framework",
+    "section": "Overview",
+    "text": "Overview\nThis website-version of the ANONYMED Trustworthy AI Framework provides an easy-to-click-through resource for ethical development of the AI solutions within the ANONYMED toolbox. The framework thus accompanies the development of models within the ANONYMED project.\nANONYMED is focused on the creation of a methodological toolbox for privacy-preserving healthcare modelling, applicable for three different use cases in medicine (stroke, cardiology, and radiology). The toolbox provides two methods:\n\nanonymization of raw data through privacy-preserving data synthesis with generative AI methods, and\nanonymization of result data after data protection-compliant data analysis, through homomorphic encryption (HE).\n\nWhile data generated with 1) is particularly suitable for training AI models for diagnostics, the use of HE is recommended if anonymization of data can impair the accuracy of the analyses. Both types of anonymization can be evaluated quantitatively in terms of their utility: on the basis of the precision of the predictions of the resulting AI models and the statistical analyses. At the same time, privacy metrics can be used to quantify the degree of anonymization.\nWithin this framework, we intend to enable AI developers to identify and tackle ethical considerations through the development of the AI toolbox.\nOn one hand, this framework will serve as a resource for the developers of each of the use cases within the project to assess ethical justifiability of the tools developed, and for the ethics team to audit the project results. At a later stage, based on the feedback and project results, the framework will be adapted and updated, and will be provided publicly with the toolbox as a resource for end users.\nThe framework considers general ethical challenges when developing medical AI but also considers specific challenges posed by the methods employed in the project, namely generative AI, homomorphic encryption (HE), and differential privacy. We also place a particular emphasis on considerations about privacy when using these methods for anonymization of health data for data-sharing or for training AI models.\nGiven the scope of the ANONYMED project, the presented framework will focus exclusively on the EU region, with its legislative prerequisites, such as the GDPR. The framework also assumes that the toolbox is used in a research setting."
+  },
+  {
+    "objectID": "index.html#ethical-framework-for-the-anony-med-toolbox",
+    "href": "index.html#ethical-framework-for-the-anony-med-toolbox",
+    "title": "ANONYMED Framework",
+    "section": "Ethical Framework for the ANONY-MED Toolbox",
+    "text": "Ethical Framework for the ANONY-MED Toolbox\nOur ethical framework structure follows the broad structure of the Ethical guidelines for Trustworthy AI of the EU’s High-Level Expert Group on Artificial Intelligence (AI HLEG) [1]. These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:\n\nHuman agency and oversight\n\nFundamental rights\nHuman agency\nHuman oversight\n\nTechnical robustness and safety\n\nResilience to attack and security\nFallback plan and general safety\nAccuracy\nReliability and Reproducibility\n\nPrivacy and Data governance\n\nPrivacy and data protection\nQuality and integrity of data\nAccess to data\n\nTransparency\n\nTraceability\nExplainability\nCommunication\n\nDiversity, non-discrimination and fairness\n\nAvoidance of unfair bias\nAccessibility and universal design\nStakeholder participation\n\nSocietal and environmental well-being\n\nSustainable and environmentally friendly\nSocial impact\nSociety and Democracy\n\nAccountability\n\nAuditability\nMinimisation and reporting of negative impacts\nTrade-offs\nRedress\n\n\nThese guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”. The descriptions of the high- and mid-level norms below are taken verbatim from [1].\nFor each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the ALTAI checklist (cite 2)."
+  },
+  {
+    "objectID": "1_hum.html",
+    "href": "1_hum.html",
+    "title": "1 Human Agency and Oversight (HUM)",
+    "section": "",
+    "text": "1.1 Fundamental rights\nLike many technologies, AI systems can equally enable and hamper fundamental rights. They can benefit people for instance by helping them track their personal data, or by increasing the accessibility of education, hence supporting their right to education. However, given the reach and capacity of AI systems, they can also negatively affect fundamental rights. In situations where such risks exist, a fundamental rights impact assessment should be undertaken. This should be done prior to the system’s development and include an evaluation of whether those risks can be reduced or justified as necessary in a democratic society in order to respect the rights and freedoms of others. Moreover, mechanisms should be put into place to receive external feedback regarding AI systems that potentially infringe on fundamental rights.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1 Human Agency and Oversight (HUM)</span>"
+    ]
+  },
+  {
+    "objectID": "1_hum.html#fundamental-rights",
+    "href": "1_hum.html#fundamental-rights",
+    "title": "1 Human Agency and Oversight (HUM)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nShould a fundamental rights impact assessment be performed?\nCould your models potentially affect fundamental rights: respect for human dignity, freedom, democracy, equality, rule of law, or respect for human rights?\n\n\nIf you have performed a fundamental rights impact assessment, what are your results?\nProvide specifically justification what type of assessment you chose, why, and how you assess the validity of the results.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1 Human Agency and Oversight (HUM)</span>"
+    ]
+  },
+  {
+    "objectID": "1_hum.html#human-agency",
+    "href": "1_hum.html#human-agency",
+    "title": "1 Human Agency and Oversight (HUM)",
+    "section": "1.2 Human Agency",
+    "text": "1.2 Human Agency\nUsers should be able to make informed autonomous decisions regarding AI systems. They should be given the knowledge and tools to comprehend and interact with AI systems to a satisfactory degree and, where possible, be enabled to reasonably self-assess or challenge the system. AI systems should support individuals in making better, more informed choices in accordance with their goals. AI systems can sometimes be deployed to shape and influence human behaviour through mechanisms that may be difficult to detect, since they may harness sub-conscious processes, including various forms of unfair manipulation, deception, herding and conditioning, all of which may threaten individual autonomy. The overall principle of user autonomy must be central to the system’s functionality. Key to this is the right not to be subject to a decision based solely on automated processing when this produces legal effects on users or similarly significantly affects them.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nAre appropriate training protocols devised and observed for all users of the toolbox?\nHuman agency requires adequate knowledge about the capabilities of a system. This ensures that given information is not blindly followed, to avoid automation bias. A training protocol or systematized evaluation of training needs must be made before interacting with a system.\n\n\nWhat information were users of the toolbox provided prior to interacting with the toolbox?\nHuman agency requires adequate information on the basis of which decisions can be taken. This requires a deep and sufficient understanding of the toolbox capabilities.\n\n\nWhich measures did you implement to avoid that end-user over-rely on the toolbox methods and critically assess their interaction with the toolbox methods?\nConsciously and systematically reviewing how to interact with the toolbox helps maintaining human agency in the development process.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1 Human Agency and Oversight (HUM)</span>"
+    ]
+  },
+  {
+    "objectID": "1_hum.html#human-oversight",
+    "href": "1_hum.html#human-oversight",
+    "title": "1 Human Agency and Oversight (HUM)",
+    "section": "1.3 Human Oversight",
+    "text": "1.3 Human Oversight\nHuman oversight helps ensuring that an AI system does not undermine human autonomy or causes other adverse effects. Oversight may be achieved through governance mechanisms such as a human-in-the-loop (HITL), human-on-the-loop (HOTL), or human-in-command (HIC) approach. HITL refers to the capability for human intervention in every decision cycle of the system, which in many cases is neither possible nor desirable. HOTL refers to the capability for human intervention during the design cycle of the system and monitoring the system’s operation. HIC refers to the capability to oversee the overall activity of the AI system (including its broader economic, societal, legal and ethical impact) and the ability to decide when and how to use the system in any particular situation. This can include the decision not to use an AI system in a particular situation, to establish levels of human discretion during the use of the system, or to ensure the ability to override a decision made by a system. Moreover, it must be ensured that public enforcers have the ability to exercise oversight in line with their mandate. Oversight mechanisms can be required in varying degrees to support other safety and control measures, depending on the AI system’s application area and potential risk. All other things being equal, the less oversight a human can exercise over an AI system, the more extensive testing and stricter governance is required.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe what type of human oversight was integrated into the decision-making processes when using the toolbox (HITL, HOTL, or HIC)?\nHuman agency requires adequate knowledge about the capabilities of a system. This ensures that given information is not blindly followed, to avoid automation bias. A training protocol or systematized evaluation of training needs must be made before interacting with a systeConsider the above presented definitions of these concepts.\n\n\nDescribe measures taken to make interaction with the toolbox and the development of models based on the toolbox auditable.\nHuman oversight requires that other can audit your decisions and oversight mechanisms. While public enforcers will only operate in regulated environments, it it is still advisable to have your work audited, and to make information publicly as much available as possible.\n\n\nHave the users of the toolbox been given specific training how to exercise oversight?\nEven if oversight measures have been taken, the users need to be trained in applying them.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>1 Human Agency and Oversight (HUM)</span>"
+    ]
+  },
+  {
+    "objectID": "2_rob.html",
+    "href": "2_rob.html",
+    "title": "2 Technical Robustness and Safety (ROB)",
+    "section": "",
+    "text": "2.1 Resilience to Attack and Safety\nAI systems, like all software systems, should be protected against vulnerabilities that can allow them to be exploited by adversaries, e.g. hacking. Attacks may target the data (data poisoning), the model (model leakage) or the underlying infrastructure, both software and hardware. If an AI system is attacked, e.g. in adversarial attacks, the data as well as system behaviour can be changed, leading the system to make different decisions, or causing it to shut down altogether. Systems and data can also become corrupted by malicious intention or by exposure to unexpected situations. Insufficient security processes can also result in erroneous decisions or even physical harm. For AI systems to be considered secure, possible unintended applications of the AI system (e.g. dual-use applications) and potential abuse of the system by malicious actors should be taken into account, and steps should be taken to prevent and mitigate these.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2\tTechnical Robustness and Safety (ROB)</span>"
+    ]
+  },
+  {
+    "objectID": "2_rob.html#resilience-to-attack-and-safety",
+    "href": "2_rob.html#resilience-to-attack-and-safety",
+    "title": "2 Technical Robustness and Safety (ROB)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nDescribe how you identified, simulated, and assessed the potential security risks of planned models? Particularly, describe measures taken to mitigate the risk of common adversarial attacks.\nCould your models potentially affect fundamental rights: respect for human dignity, freedom, democracy, equality, rule of law, or respect for human rights?Adversarial attacks are an often-overlooked threat for AI systems. Especially in healthcare this leads to high risk for patients as data donors. For a taxonomy and terminology of attacks and their mitigations, see e.g. [3]. The same resource lists also attacks specific to generative AI.\n\n\nWill the AI models created in the project be publicly released? If yes, elaborate where and what security measures are taken to prevent risks.\nPublicly available datasets increase the risk of adversarial attacks that rely on access to the models.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2\tTechnical Robustness and Safety (ROB)</span>"
+    ]
+  },
+  {
+    "objectID": "2_rob.html#fallback-plan-and-general-safety",
+    "href": "2_rob.html#fallback-plan-and-general-safety",
+    "title": "2 Technical Robustness and Safety (ROB)",
+    "section": "2.2 Fallback plan and general safety",
+    "text": "2.2 Fallback plan and general safety\nAI systems should have safeguards that enable a fallback plan in case of problems. This can mean that AI systems switch from a statistical to rule-based procedure, or that they ask for a human operator before continuing their action. It must be ensured that the system will do what it is supposed to do without harming living beings or the environment. This includes the minimisation of unintended consequences and errors. In addition, processes to clarify and assess potential risks associated with the use of AI systems, across various application areas, should be established. The level of safety measures required depends on the magnitude of the risk posed by an AI system, which in turn depends on the system’s capabilities. Where it can be foreseen that the development process or the system itself will pose particularly high risks, it is crucial for safety measures to be developed and tested proactively.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe the process how you clarified and assessed the risks of your models, the associated risk metrics and risk levels for unintended consequences and errors. In case you use synthetic data, describe whether models based on the original data and models based on synthetic data exhibit the same or different risks.\nA minimum requirement for general safety is an overview of the risks and how they can be measured.\n\n\nDescribe the level of risk discerned: specifically threats to the AI models, regarding malicious use, misuse, or inappropriate use.\nIn a research setting, one of the most common questions will be how the use of the models could lead to unintended threatst/risks. For example, many funders now require open code/open data approaches, under which models will regularly be made publicly available.\n\n\nWhat is the process for mitigating identified risks?\nNext to identifying and assessing risk, it must be ensured that the risks are appropriately mitigated.\n\n\nHow will you obtain and assess feedback about your models and how will you incorporate it?\nThis is crucial, if potentially new risks that have been overlooked in the initial phase, there is a need for a feedback loop. Especially in a research setting, it needs to be ensured that feedback can still be received, even after staff, e.g. a PhD-student or postdoc, leave the associated lab.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2\tTechnical Robustness and Safety (ROB)</span>"
+    ]
+  },
+  {
+    "objectID": "2_rob.html#accuracy",
+    "href": "2_rob.html#accuracy",
+    "title": "2 Technical Robustness and Safety (ROB)",
+    "section": "2.3 Accuracy",
+    "text": "2.3 Accuracy\nAccuracy pertains to an AI system’s ability to make correct judgements, for example to correctly classify information into the proper categories, or its ability to make correct predictions, recommendations, or decisions based on data or models. An explicit and well-formed development and evaluation process can support, mitigate and correct unintended risks from inaccurate predictions. When occasional inaccurate predictions cannot be avoided, it is important that the system can indicate how likely these errors are. A high level of accuracy is especially crucial in situations where the AI system directly affects human lives.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nIn the resulting AI models, how is accuracy defined and tested, and what is the justification for use of these metrics? If you are creating synthetic data: Describe why the accuracy compared to training the model on original data is sufficient, and how you came to that conclusion.\nIt is critical to define the right metrics for a given case to assess accuracy.\n\n\nDescribe how the robustness of the model results will be tested, ensured and documented?\nHuman oversight requires that other can audit your decisions and oversight mechanisms. Robustness, defined as a metric of the internal and external validity of AI models is a crucial indicator for the trustworthiness of the reported accuracy.\n\n\nDescribe all machine learning best practices that you have been following in your training and testing of the AI models.\nReported accuracies are trustworthy if broadly accepted best practices are followed during development. It is advisable to follow these and to report them when making models publicly available, or when publishing results.\n\n\nIf you are creating synthetic data: Describe your evaluation of whether the data generation is picking up spurious correlations (“Clever Hans” phenomenon)?\nA ‘Clever Hans’ effect can occur when the developed models results are correct predictions which are based on incorrect features.[4]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2\tTechnical Robustness and Safety (ROB)</span>"
+    ]
+  },
+  {
+    "objectID": "2_rob.html#reliability-and-reproducibility",
+    "href": "2_rob.html#reliability-and-reproducibility",
+    "title": "2 Technical Robustness and Safety (ROB)",
+    "section": "2.4 Reliability and Reproducibility",
+    "text": "2.4 Reliability and Reproducibility\nIt is critical that the results of AI systems are reproducible, as well as reliable. A reliable AI system is one that works properly with a range of inputs and in a range of situations. This is needed to scrutinise an AI system and to prevent unintended harms. Reproducibility describes whether an AI experiment exhibits the same behaviour when repeated under the same conditions. This enables scientists and policy makers to accurately describe what AI systems do. Replication files can facilitate the process of testing and reproducing behaviours.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe how you defined the ranges and inputs of your AI models.\nReliability can only be ensured if an AI system is used within the specifications that have been set during development.\n\n\nDescribe procedures for assessing the and results of the AI model´s replicability and reproducibility. Will these analyses be made publicly available or upon request?\nThreats to reproducible science are, among others, publication bias, failure to control for bias, p-hacking, low statistical power, poor quality control[5].\n\n\nDescribe how you have assessed and mitigated the risk of data drift.\nThere are multiple examples of data drift in deployed medical AI systems and one article suggests that choosing more stable features (e.g., biological markers, blood pressure, heartrate) might decrease the risk of data drift compared to features impacted by social behaviour or organizational processes (e.g., time from hospitalization, ICD codes) [6].",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>2\tTechnical Robustness and Safety (ROB)</span>"
+    ]
+  },
+  {
+    "objectID": "3_pri.html",
+    "href": "3_pri.html",
+    "title": "3 Privacy and Data Governance (PRI)",
+    "section": "",
+    "text": "3.1 Privacy and Data Protection\nAI systems must guarantee privacy and data protection throughout a system’s entire lifecycle. This includes the information initially provided by the user, as well as the information generated about the user over the course of their interaction with the system (e.g. outputs that the AI system generated for specific users or how users responded to particular recommendations). Digital records of human behaviour may allow AI systems to infer not only individuals’ preferences, but also their sexual orientation, age, gender, religious or political views. To allow individuals to trust the data gathering process, it must be ensured that data collected about them will not be used to discriminate against them unlawfully or unfairly.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Privacy and Data Governance (PRI)</span>"
+    ]
+  },
+  {
+    "objectID": "3_pri.html#privacy-and-data-protection",
+    "href": "3_pri.html#privacy-and-data-protection",
+    "title": "3 Privacy and Data Governance (PRI)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nDescribe how your development process and implementation of the use case complies with all relevant data protection frameworks, e.g. the GDPR regulation.\nAll development steps must adhere to what is legally required.\n\n\nDescribe in detail how the threats of singling out, linkability and inference have been dealt with.\nSingling out, linkability and inference are main threats to privacy[7].\n\n\nDescribe the results of your Data Protection Impact Assessment (DPIA), or justify what it was not performed.\nA template can be found here: https://gdpr.eu/data-protection-impact-assessment-template/\n\n\nIf electronic communication mediums such as websites, emails, apps, are used to process personal data, has an assessment been made on whether and how specific regulations might apply?\nIn Germany, for example, the Telekommunikation-Telemedien-Datenschutzgesetz (TTDSG)[8]. Please check whether your national laws require similar considerations.\n\n\nDescribe what kind of data manipulation, processing, and sharing the medical patients in the datasets have consented to.\nProcessing of personal data requires either a specific or a broad consent.\n\n\nFor synthetic data generation: Describe the level of privacy and anonymization that you have achieved and how you made that assessment, i.e. which metrics you used.\nIt is unfortunately common that developers only disclose that data is “private” or “anonymized” without also disclosing on what considerations this assessment is based on.\n\n\nDescribe how private your AI model must be, what metrics you used for this assessment, and what the outcome of the considerations process was.\nThe required level of privacy depends on the dimensions of 1) use case, 2) applied methods, and 3) type of data.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Privacy and Data Governance (PRI)</span>"
+    ]
+  },
+  {
+    "objectID": "3_pri.html#quality-and-integrity-of-data",
+    "href": "3_pri.html#quality-and-integrity-of-data",
+    "title": "3 Privacy and Data Governance (PRI)",
+    "section": "3.2 Quality and Integrity of Data",
+    "text": "3.2 Quality and Integrity of Data\nThe quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe how the data quality of the synthetically created data will be evaluated for your use case. Please consider specifically, which metrics for data quality been created and evaluated.\nOne of the main challenges of creating synthetic data is the uncertainty of the quality of the synthetic data.[9]\n\n\nDescribe the documentation of how the data has been collected for all datasets used, including any open-source datasets.\nTransparency of data collection is a crucial prerequisite to assess the quality and integrity of data.\n\n\nDescribe how the data has been pre-processed, cleaned, filtered, or whether parts wree removed prior to training, how this was documented, and where the relevant files will be stored for public/internal access?\nData processing steps might alter the quality or integrity of data.\n\n\nDescribe the result of your assessment on pre-existing information on your study data.\nFor example, others might have made results or analyses publicly available thus providing information on the biases or limitations/weaknesses/issues of the datasets. For open-source datasets, some have been audited for biases, correctness, and similar metrics as was done by the Data Provenance Explorer for LLM datasets. [10], [11]\n\n\nDescribe how you made sure to adhere to all potential license agreements and how this was documented.\nFor many datasets, licence agreements are needed.\n\n\nIn you case you shared or plan to share data, describe how you followed the FAIR principles for data sharing.\nThe FAIR principles provide guidance for improving Findability, Accessibility, Interoperability and Reusability (FAIR) of digital resources. [12]\n\n\nIn you case you shared or plan to share data, describe your effort to make your data interoperable according to standards for data sharing or data labeling in medicine, such as SNOMED-CT? [13]\nInteroperability is a hallmark for avances in digital medicine based on AI.[14]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Privacy and Data Governance (PRI)</span>"
+    ]
+  },
+  {
+    "objectID": "3_pri.html#access-to-data",
+    "href": "3_pri.html#access-to-data",
+    "title": "3 Privacy and Data Governance (PRI)",
+    "section": "3.3 Access to data",
+    "text": "3.3 Access to data\nIn any given organisation that handles individuals’ data (whether someone is a user of the system or not), data protocols governing data access should be put in place. These protocols should outline who can access data and under which circumstances. Only duly qualified personnel with the competence and need to access individual’s data should be allowed to do so.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe and/or provide your data management plan.\nThis should include, not exhaustively, the data access protocol, a process protocol on who should have access to the training and the generated medical datasets and/or models, an access log for data access and altering.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>3 Privacy and Data Governance (PRI)</span>"
+    ]
+  },
+  {
+    "objectID": "4_tra.html",
+    "href": "4_tra.html",
+    "title": "4 Transparency (TRA)",
+    "section": "",
+    "text": "4.1 Traceability\nThe data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>4 Transparency (TRA)</span>"
+    ]
+  },
+  {
+    "objectID": "4_tra.html#traceability",
+    "href": "4_tra.html#traceability",
+    "title": "4 Transparency (TRA)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nDescribe the measures that you put into place to make your AI model traceable.\nSpecifically, you may want to focus on measures to continuously assess the quality of the input data to the AI system, to trace back which data was used by the AI system to make a certain decision or recommendation, or to continuously assess the quality of the output(s) of the AI system. These recommendations are not exhaustive.\n\n\nIn case of scientific publications associated with the toolbox: Describe how you adhered to reporting guidelines. In case you did not, justify the decision.\nFor example, model cards are a great way to increase transparency and traceability in the context of scientific publishing. [15]\n\n\nDescribe how ethical dilemmas, challenges, and their related decisions are documented, and where solutions are recorded.\nIt is paramount from an ethical perspective to understand the decision making process over time.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>4 Transparency (TRA)</span>"
+    ]
+  },
+  {
+    "objectID": "4_tra.html#explainability",
+    "href": "4_tra.html#explainability",
+    "title": "4 Transparency (TRA)",
+    "section": "4.2 Explainability",
+    "text": "4.2 Explainability\nExplainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system’s explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g. layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency).\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe whether the AI models made for your use case need to be explainable.\nDescribe the decision-making process around the need for explainability. Justify the decisions made.\n\n\nIn case you used explainability methods: Describe how you determined, which explainability methods were suitable for your use case.\nA plethora of explainability methods exists. It is crucial to choose a method suitable for the use case at hand.\n\n\nIn case you used explainability methods: Describe how you validated the explainability methods. If you did not, justify the decision.\nExplainability methods need to be validated which is currently seldomly done.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>4 Transparency (TRA)</span>"
+    ]
+  },
+  {
+    "objectID": "4_tra.html#communication",
+    "href": "4_tra.html#communication",
+    "title": "4 Transparency (TRA)",
+    "section": "4.3 Communication",
+    "text": "4.3 Communication\nAI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system’s level of accuracy, as well as its limitations.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe the mechanisms how you inform end-users of the model about the purpose, criteria and limitations of the AI model.\nYou may want to focus on whether and how you communicated the benefits, the technical limitations, and the potential risks.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>4 Transparency (TRA)</span>"
+    ]
+  },
+  {
+    "objectID": "5_div.html",
+    "href": "5_div.html",
+    "title": "5 Diversity, Non-discrimination, and Fairness (DIV)",
+    "section": "",
+    "text": "5.1 Avoidance of Bias\nData sets used by AI systems (both for training and operation) may suffer from the inclusion of inadvertent historic bias, incompleteness and bad governance models. The continuation of such biases could lead to unintended (in)direct prejudice and discrimination against certain groups or people, potentially exacerbating prejudice and marginalisation. Harm can also result from the intentional exploitation of (consumer) biases or by engaging in unfair competition, such as the homogenisation of prices by means of collusion or a non-transparent market. Identifiable and discriminatory bias should be removed in the collection phase where possible. The way in which AI systems are developed (e.g. algorithms’ programming) may also suffer from unfair bias. This could be counteracted by putting in place oversight processes to analyse and address the system’s purpose, constraints, requirements and decisions in a clear and transparent manner. Moreover, hiring from diverse backgrounds, cultures and disciplines can ensure diversity of opinions and should be encouraged.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>5 Diversity, Non-discrimination, and Fairness (DIV)</span>"
+    ]
+  },
+  {
+    "objectID": "5_div.html#avoidance-of-bias",
+    "href": "5_div.html#avoidance-of-bias",
+    "title": "5 Diversity, Non-discrimination, and Fairness (DIV)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nDescribe how the demographics of the relevant target group subject to the AI processing or training have been defined, i.e. how does a representative dataset looks like.\nTo avoid bias it is paramount to have an understanding how a representative dataset for the use case looks like.\n\n\nDescribe the results of the demographic features of the dataset before and after the generation/anonymization been done?\nIt is important that the datasets after processing of any kind, including attempts to preserve privacy, are not altered in a way that promotes unfair bias.\n\n\nDescribe what type of fairness testing has been done on the AI models. Specifically, justify the choice of metrics and how they have been documented.\nHas an evaluation been done on whether bias-preserving fairness metrics can be used? See checklist by Wachter et al. [16, p. 42]\n\n\nDescribe the ratio of diversity (e.g. ethnicity, gender) within the project staff?\nDiversity is an important factor to avoid bias.\n\n\nDescribe how staff was trained to (educational and awareness initiatives) to be more aware of possible bias.\nTraining is a crucial factor to raise awareness of ethical design to avoid bias.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>5 Diversity, Non-discrimination, and Fairness (DIV)</span>"
+    ]
+  },
+  {
+    "objectID": "5_div.html#accessibility-and-universal-design",
+    "href": "5_div.html#accessibility-and-universal-design",
+    "title": "5 Diversity, Non-discrimination, and Fairness (DIV)",
+    "section": "5.2 Accessibility and universal design",
+    "text": "5.2 Accessibility and universal design\nParticularly in business-to-consumer domains, systems should be user-centric and designed in a way that allows all people to use AI products or services, regardless of their age, gender, abilities or characteristics. Accessibility to this technology for persons with disabilities, which are present in all societal groups, is of particular importance. AI systems should not have a one-size-fits-all approach and should consider Universal Design principles addressing the widest possible range of users, following relevant accessibility standards. This will enable equitable access and active participation of all people in existing and emerging computer-mediated human activities and with regard to assistive technologies.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe how your AI model might impact potential end-users from a usability and accessibility perspective. Justify your design decisions.\nSince this framework is mainly concerned with research use cases, it is evident that much of this rubric applies only to product development. However, it is still a necessary exercise to consider the impact on end-users. This can be as “little” as refraining from color schemes that are difficult for end-user with color blindness.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>5 Diversity, Non-discrimination, and Fairness (DIV)</span>"
+    ]
+  },
+  {
+    "objectID": "5_div.html#stakeholder-participation",
+    "href": "5_div.html#stakeholder-participation",
+    "title": "5 Diversity, Non-discrimination, and Fairness (DIV)",
+    "section": "5.3 Stakeholder participation",
+    "text": "5.3 Stakeholder participation\nIn order to develop AI systems that are trustworthy, it is advisable to consult stakeholders who may directly or indirectly be affected by the system throughout its life cycle. It is beneficial to solicit regular feedback even after deployment and set up longer term mechanisms for stakeholder participation, for example by ensuring workers information, consultation and participation throughout the whole process of implementing AI systems at organisations.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe how stakeholders have been involved in the development of the AI model. Justify your decisions.\nYou may want to consider stakeholder mapping, or stakeholder consultation, or stakeholder design participation via co-creation approaches.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>5 Diversity, Non-discrimination, and Fairness (DIV)</span>"
+    ]
+  },
+  {
+    "objectID": "6_sus.html",
+    "href": "6_sus.html",
+    "title": "6 Societal and Environmental Well-Being (SUS)",
+    "section": "",
+    "text": "6.1 Sustainable and environmentally friendly AI\nAI systems promise to help tackling some of the most pressing societal concerns, yet it must be ensured that this occurs in the most environmentally friendly way possible. The system’s development, deployment and use process, as well as its entire supply chain, should be assessed in this regard, e.g. via a critical examination of the resource usage and energy consumption during training, opting for less harmful choices. Measures securing the environmental friendliness of AI systems’ entire supply chain should be encouraged.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>6\tSocietal and Environmental Well-Being (SUS)</span>"
+    ]
+  },
+  {
+    "objectID": "6_sus.html#sustainable-and-environmentally-friendly-ai",
+    "href": "6_sus.html#sustainable-and-environmentally-friendly-ai",
+    "title": "6 Societal and Environmental Well-Being (SUS)",
+    "section": "",
+    "text": "Question\nConsiderations\n\n\n\n\nDescribe how the energy consumption related to the training and testing of the AI models has been estimated, logged, documented, and/or shared.\nThe Datavizta emissions calculator can be used to estimate the emissions related to the use of different clouds or hardware [17].\n\n\nDescribe what negative impacts your AI development could have on the environment and your measures to reduce the environmental impact of your model development.\nYou may want to consider an SOP for decreasing unnecessary resource usage; or switching to the the most environmentally friendly type of energy was consumed in the development of the AI model\n\n\nIf you use HE, describe how you have ensured the minimal amount of features to avoid unnecessary heavy computations that might impact sustainability? [18, p. 2]\nThe combination of machine learning and HE is known to be very resource intensive with increasing numbers of features.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>6\tSocietal and Environmental Well-Being (SUS)</span>"
+    ]
+  },
+  {
+    "objectID": "6_sus.html#social-impact",
+    "href": "6_sus.html#social-impact",
+    "title": "6 Societal and Environmental Well-Being (SUS)",
+    "section": "6.2 Social impact",
+    "text": "6.2 Social impact\nUbiquitous exposure to social AI systems in all areas of our lives (be it in education, work, care or entertainment) may alter our conception of social agency, or impact our social relationships and attachment. While AI systems can be used to enhance social skills, they can equally contribute to their deterioration. This could also affect people’s physical and mental wellbeing. The effects of these systems must therefore be carefully monitored and considered.\nThis sub-item is not applicable for this toolbox.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>6\tSocietal and Environmental Well-Being (SUS)</span>"
+    ]
+  },
+  {
+    "objectID": "6_sus.html#society-and-democracy",
+    "href": "6_sus.html#society-and-democracy",
+    "title": "6 Societal and Environmental Well-Being (SUS)",
+    "section": "6.3 Society and democracy",
+    "text": "6.3 Society and democracy\nBeyond assessing the impact of an AI system’s development, deployment and use on individuals, this impact should also be assessed from a societal perspective, taking into account its effect on institutions, democracy and society at large. The use of AI systems should be given careful consideration particularly in situations relating to the democratic process, including not only political decision-making but also electoral contexts.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe your assessment whether the AI model has an impact on institutions or the society.\nYou may want to consider the effect of the model on the healthcare system, e.g. on a governance, economic, and staffing level. You may want to consider the impact of your AI model on human work and work arrangements, in the healthcare setting for example effects on de-skilling.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>6\tSocietal and Environmental Well-Being (SUS)</span>"
+    ]
+  },
+  {
+    "objectID": "7_acc.html",
+    "href": "7_acc.html",
+    "title": "7 Accountability (ACC)",
+    "section": "",
+    "text": "7.1 Auditability\nAuditability entails the enablement of the assessment of algorithms, data and design processes. This does not necessarily imply that information about business models and intellectual property related to the AI system must always be openly available. Evaluation by internal and external auditors, and the availability of such evaluation reports, can contribute to the trustworthiness of the technology. In applications affecting fundamental rights, including safety-critical applications, AI systems should be able to be independently audited.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>7 Accountability (ACC)</span>"
+    ]
+  },
+  {
+    "objectID": "7_acc.html#auditability",
+    "href": "7_acc.html#auditability",
+    "title": "7 Accountability (ACC)",
+    "section": "7.1 Auditability",
+    "text": "7.1 Auditability\nAuditability entails the enablement of the assessment of algorithms, data and design processes. This does not necessarily imply that information about business models and intellectual property related to the AI system must always be openly available. Evaluation by internal and external auditors, and the availability of such evaluation reports, can contribute to the trustworthiness of the technology. In applications affecting fundamental rights, including safety-critical applications, AI systems should be able to be independently audited.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe the process for documenting the choices and their related justification during development when faced with dilemmas and trade-offs?\nYou may want to include descriptions of topics such as but not limited to: The context, alternatives, choice made, justification, decision-makers, who was consulted, and the date. You may want to establish mechanisms such as traceability of the development process, of the sourcing of training data and the logging of AI model processes, outcomes, and positive or negative impact)"
+  },
+  {
+    "objectID": "7_acc.html#minimisation-and-reporting-of-negative-impacts",
+    "href": "7_acc.html#minimisation-and-reporting-of-negative-impacts",
+    "title": "7 Accountability (ACC)",
+    "section": "7.2 Minimisation and reporting of negative impacts",
+    "text": "7.2 Minimisation and reporting of negative impacts\nBoth the ability to report on actions or decisions that contribute to a certain system outcome, and to respond to the consequences of such an outcome, must be ensured. Identifying, assessing, reporting and minimising the potential negative impacts of AI systems is especially crucial for those (in)directly affected. Due protection must be available for whistle-blowers, NGOs, trade unions or other entities when reporting legitimate concerns about an AI-based system. The use of impact assessments (e.g. red teaming or forms of Algorithmic Impact Assessment) both prior to and during the development, deployment and use of AI systems can be helpful to minimise negative impact. These assessments must be proportionate to the risk that the AI systems pose.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe the process that has been set up for reporting of negative impacts? Has an assessment been made on what kind of issues should be monitored for and how the reporting format should look like to accommodate such issues?\nYou may want to consider an SOP for reporting negative impacts and protections for whistle-blowers, or broadly anonymous feedback.\n\n\nDescribe your results of the Algorithmic Impact Assessment (AIA).\nYou may want to scale your AIA with the size of your AI project. When using HE, you should consider latency and throughput considerable challenges [18, p. 2]"
+  },
+  {
+    "objectID": "7_acc.html#trade-offs",
+    "href": "7_acc.html#trade-offs",
+    "title": "7 Accountability (ACC)",
+    "section": "7.3 Trade-offs",
+    "text": "7.3 Trade-offs\nWhen implementing the above requirements, tensions may arise between them, which may lead to inevitable trade-offs. Such trade-offs should be addressed in a rational and methodological manner within the state of the art. This entails that relevant interests and values implicated by the AI system should be identified and that, if conflict arises, trade-offs should be explicitly acknowledged and evaluated in terms of their risk to ethical principles, including fundamental rights. In situations in which no ethically acceptable trade-offs can be identified, the development, deployment and use of the AI system should not proceed in that form. Any decision about which trade-off to make should be reasoned and properly documented. The decision-maker must be accountable for the manner in which the appropriate trade-off is being made, and should continually review the appropriateness of the resulting decision to ensure that necessary changes can be made to the system where needed.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe your approach how to identify, mitigate, and solve ethical tensions between the ethical principles of this framework.\nA good starting point is the report of Whittlestone et al from the Nuffield foundation. [19]"
+  },
+  {
+    "objectID": "7_acc.html#redress",
+    "href": "7_acc.html#redress",
+    "title": "7 Accountability (ACC)",
+    "section": "7.4 Redress",
+    "text": "7.4 Redress\nWhen unjust adverse impact occurs, accessible mechanisms should be foreseen that ensure adequate redress. Knowing that redress is possible when things go wrong is key to ensure trust. Particular attention should be paid to vulnerable persons or groups.\n\n\n\n\n\n\n\nQuestion\nConsiderations\n\n\n\n\nDescribe your measures and or processes for redress.\nYou may want to consider for example how it will be remediated if it is later revealed that sensitive information can be inferred from the models or datasets shared."
+  },
+  {
+    "objectID": "8_bib.html",
+    "href": "8_bib.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "[1] AI-HLEG, ‘Ethics Guidelines for Trustworthy AI’, FUTURIUM - European Commission. Accessed: Mar. 12, 2022. [Online]. Available: https://ec.europa.eu/futurium/en/ai-alliance-consultation\n[2] ‘Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment | Shaping Europe’s digital future’. Accessed: Jan. 09, 2024. [Online]. Available: https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment\n[3] A. Vassilev, ‘Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations’, National Institute of Standards and Technology, Gaithersburg, MD, NIST AI NIST AI 100-2e2023, 2024. doi: 10.6028/NIST.AI.100-2e2023.\n[4] S. Lapuschkin, S. Wäldchen, A. Binder, G. Montavon, W. Samek, and K.-R. Müller, ‘Unmasking Clever Hans predictors and assessing what machines really learn’, . Commun., vol. 10, no. 1, Art. no. 1, Mar. 2019, doi: 10.1038/s41467-019-08987-4.\n[5] M. R. Munafò et al., ‘A manifesto for reproducible science’, . Hum. Behav., vol. 1, no. 1, p. 0021, Jan. 2017, doi: 10.1038/s41562-016-0021.\n[6] C. Ross, ‘AI gone astray: How subtle shifts in patient data send popular algorithms reeling, undermining patient safety’, News, Feb. 28, 2022. Accessed: Nov. 23, 2023. [Online]. Available: https://www.statnews.com/2022/02/28/sepsis-hospital-algorithms-data-shift/\n[7] M. Giomi, F. Boenisch, C. Wehmeyer, and B. Tasnádi, ‘A Unified Framework for Quantifying Privacy Risk in Synthetic Data’. arXiv, Nov. 18, 2022. doi: 10.48550/arXiv.2211.10459.\n[8] A. Chumak, ‘Which German Data Privacy Laws You Need to Comply With’, InCountry. Accessed: Dec. 20, 2023. [Online]. Available: https://incountry.com/blog/which-german-data-privacy-laws-you-need-to-comply-with/\n[9] Exchange - Synthetic Data & Simulators, (Nov. 07, 2023). Accessed: Dec. 20, 2023. [Online Video]. Available: https://www.youtube.com/watch?v=TmRUk2VCOcU\n[10] Data Provenance Initiative, ‘Data Provenance Explorer’. Accessed: Nov. 29, 2023. [Online]. Available: https://www.dataprovenance.org/\n[11] S. Longpre et al., ‘The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI’. arXiv, Nov. 04, 2023. Accessed: Nov. 29, 2023. [Online]. Available: http://arxiv.org/abs/2310.16787\n[12] A. Jacobsen et al., ‘FAIR Principles: Interpretations and Implementation Considerations’, Intell., vol. 2, no. 1–2, pp. 10–29, Jan. 2020, doi: 10.1162/dint_r_00024.\n[13] E. Chang and J. Mostafa, ‘The use of SNOMED CT, 2013-2020: a literature review’, . Am. Med. Inform. Assoc., vol. 28, no. 9, pp. 2017–2026, Sep. 2021, doi: 10.1093/jamia/ocab084.\n[14] M. Lehne, J. Sass, A. Essenwanger, J. Schepers, and S. Thun, ‘Why digital medicine depends on interoperability’, Digit. Med., vol. 2, no. 1, Art. no. 1, Aug. 2019, doi: 10.1038/s41746-019-0158-1.\n[15] M. Mitchell et al., ‘Model Cards for Model Reporting’, in of the Conference on Fairness, Accountability, and Transparency, in FAT* ’19. Atlanta, GA, USA: Association for Computing Machinery, Jan. 2019, pp. 220–229. doi: 10.1145/3287560.3287596.\n[16] S. Wachter, B. Mittelstadt, and C. Russell, ‘Bias Preservation in Machine Learning: The Legality of Fairness Metrics Under EU Non-Discrimination Law’, Social Science Research Network, Rochester, NY, SSRN Scholarly Paper ID 3792772, Jan. 2021. doi: 10.2139/ssrn.3792772.\n[17] Boavizta, ‘Datavizta’, Why Datavizta? Accessed: Nov. 21, 2023. [Online]. Available: https://dataviz.boavizta.org/\n[18] E. Sarkar, E. Chielle, G. Gursoy, L. Chen, M. Gerstein, and M. Maniatakos, ‘Privacy-preserving cancer type prediction with homomorphic encryption’, . Rep., vol. 13, no. 1, p. 1661, Jan. 2023, doi: 10.1038/s41598-023-28481-8.\n[19] J. Whittlestone, R. Nyrup, A. Alexandrova, K. Dihal, and S. Cave, ‘Ethical and societal implications of algorithms, data, and artificial intelligence: a roadmap for research’.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Bibliography</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#ethical-framework-for-the-anonymed-toolbox",
+    "href": "index.html#ethical-framework-for-the-anonymed-toolbox",
+    "title": "ANONYMED Framework",
+    "section": "Ethical Framework for the ANONYMED Toolbox",
+    "text": "Ethical Framework for the ANONYMED Toolbox\nOur ethical framework structure follows the broad structure of the Ethical guidelines for Trustworthy AI of the EU’s High-Level Expert Group on Artificial Intelligence (AI HLEG). These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:\n\nHuman agency and oversight\n\nFundamental rights\nHuman agency\nHuman oversight\n\nTechnical robustness and safety\n\nResilience to attack and security\nFallback plan and general safety\nAccuracy\nReliability and Reproducibility\n\nPrivacy and Data governance\n\nPrivacy and data protection\nQuality and integrity of data\nAccess to data\n\nTransparency\n\nTraceability\nExplainability\nCommunication\n\nDiversity, non-discrimination and fairness\n\nAvoidance of unfair bias\nAccessibility and universal design\nStakeholder participation\n\nSocietal and environmental well-being\n\nSustainable and environmentally friendly\nSocial impact\nSociety and Democracy\n\nAccountability\n\nAuditability\nMinimisation and reporting of negative impacts\nTrade-offs\nRedress\n\n\nThese guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”. The descriptions of the high- and mid-level norms below are taken verbatim from [1].\nFor each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the accompanying [Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment.] (https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)"
+  },
+  {
+    "objectID": "index.html#trustworthy-ai-framework-for-the-anonymed-toolbox",
+    "href": "index.html#trustworthy-ai-framework-for-the-anonymed-toolbox",
+    "title": "ANONYMED Ethical-Legal Framework",
+    "section": "Trustworthy AI Framework for the ANONYMED Toolbox",
+    "text": "Trustworthy AI Framework for the ANONYMED Toolbox\nOur ethical framework structure follows the broad structure of the Guidelines for Trustworthy AI developed by the EU’s High-Level Expert Group on Artificial Intelligence (AI HLEG). These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:\n\nHuman agency and oversight\n\nFundamental rights\nHuman agency\nHuman oversight\n\nTechnical robustness and safety\n\nResilience to attack and security\nFallback plan and general safety\nAccuracy\nReliability and Reproducibility\n\nPrivacy and Data governance\n\nPrivacy and data protection\nQuality and integrity of data\nAccess to data\n\nTransparency\n\nTraceability\nExplainability\nCommunication\n\nDiversity, non-discrimination and fairness\n\nAvoidance of unfair bias\nAccessibility and universal design\nStakeholder participation\n\nSocietal and environmental well-being\n\nSustainable and environmentally friendly\nSocial impact\nSociety and Democracy\n\nAccountability\n\nAuditability\nMinimisation and reporting of negative impacts\nTrade-offs\nRedress\n\n\nThese guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”.\nFor each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the accompanying Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment."
+  },
+  {
+    "objectID": "index.html#trustworthy-ai-for-the-anonymed-toolbox",
+    "href": "index.html#trustworthy-ai-for-the-anonymed-toolbox",
+    "title": "ANONYMED Ethical-Legal Framework",
+    "section": "Trustworthy AI for the ANONYMED Toolbox",
+    "text": "Trustworthy AI for the ANONYMED Toolbox\nOur ethical framework structure follows the broad structure of the Guidelines for Trustworthy AI developed by the EU’s High-Level Expert Group on Artificial Intelligence (AI HLEG). These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:\n\nHuman agency and oversight\n\nFundamental rights\nHuman agency\nHuman oversight\n\nTechnical robustness and safety\n\nResilience to attack and security\nFallback plan and general safety\nAccuracy\nReliability and Reproducibility\n\nPrivacy and Data governance\n\nPrivacy and data protection\nQuality and integrity of data\nAccess to data\n\nTransparency\n\nTraceability\nExplainability\nCommunication\n\nDiversity, non-discrimination and fairness\n\nAvoidance of unfair bias\nAccessibility and universal design\nStakeholder participation\n\nSocietal and environmental well-being\n\nSustainable and environmentally friendly\nSocial impact\nSociety and Democracy\n\nAccountability\n\nAuditability\nMinimisation and reporting of negative impacts\nTrade-offs\nRedress\n\n\nThese guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”.\nFor each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the accompanying Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment."
+  }
+]

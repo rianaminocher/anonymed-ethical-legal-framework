@@ -1,0 +1,39 @@
+# 3 Privacy and Data Governance (PRI)
+
+Closely linked to the principle of prevention of harm is privacy, a fundamental right particularly affected by AI systems. Prevention of harm to privacy also necessitates adequate data governance that covers the quality and integrity of the data used, its relevance in light of the domain in which the AI systems will be deployed, its access protocols and the capability to process data in a manner that protects privacy.
+
+## 3.1 Privacy and Data Protection
+
+AI systems must guarantee privacy and data protection throughout a system’s entire lifecycle. This includes the information initially provided by the user, as well as the information generated about the user over the course of their interaction with the system (e.g. outputs that the AI system generated for specific users or how users responded to particular recommendations). Digital records of human behaviour may allow AI systems to infer not only individuals’ preferences, but also their sexual orientation, age, gender, religious or political views. To allow individuals to trust the data gathering process, it must be ensured that data collected about them will not be used to discriminate against them unlawfully or unfairly.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe how your development process and implementation of the use case complies with all relevant data protection frameworks, e.g. the GDPR regulation.| All development steps must adhere to what is legally required.|
+| Describe in detail how the threats of singling out, linkability and inference have been dealt with.| Singling out, linkability and inference are main threats to privacy[7].|
+| Describe the results of your Data Protection Impact Assessment (DPIA), or justify what it was not performed.| A template can be found here: https://gdpr.eu/data-protection-impact-assessment-template/|
+| If electronic communication mediums such as websites, emails, apps, are used to process personal data, has an assessment been made on whether and how specific regulations might apply?| In Germany, for example, the Telekommunikation-Telemedien-Datenschutzgesetz (TTDSG)[8]. Please check whether your national laws require similar considerations.|
+| Describe what kind of data manipulation, processing, and sharing the medical patients in the datasets have consented to.| Processing of personal data requires either a specific or a broad consent.|
+| For synthetic data generation: Describe the level of privacy and anonymization that you have achieved and how you made that assessment, i.e. which metrics you used.| It is unfortunately common that developers only disclose that data is “private” or “anonymized” without also disclosing on what considerations this assessment is based on.| 
+| Describe how private your AI model must be, what metrics you used for this assessment, and what the outcome of the considerations process was.| The required level of privacy depends on the dimensions of 1) use case, 2) applied methods, and 3) type of data.|
+
+## 3.2	Quality and Integrity of Data
+
+The quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe how the data quality of the synthetically created data will be evaluated for your use case. Please consider specifically, which metrics for data quality been created and evaluated.| One of the main challenges of creating synthetic data is the uncertainty of the quality of the synthetic data.[9]|
+| Describe the documentation of how the data has been collected for all datasets used, including any open-source datasets.| Transparency of data collection is a crucial prerequisite to assess the quality and integrity of data.|
+| Describe how the data has been pre-processed, cleaned, filtered, or whether parts wree removed prior to training, how this was documented, and where the relevant files will be stored for public/internal access?|	Data processing steps might alter the quality or integrity of data.|
+| Describe the result of your assessment on pre-existing information on your study data.| For example, others might have made results or analyses publicly available thus providing information on the biases or limitations/weaknesses/issues of the datasets. For open-source datasets, some have been audited for biases, correctness, and similar metrics as was done by the Data Provenance Explorer for LLM datasets. [10], [11]|
+| Describe how you made sure to adhere to all potential license agreements and how this was documented.| For many datasets, licence agreements are needed.| 
+| In you case you shared or plan to share data, describe how you followed the FAIR principles for data sharing.| The FAIR principles provide guidance for improving Findability, Accessibility, Interoperability and Reusability (FAIR) of digital resources. [12]|
+| In you case you shared or plan to share data, describe your effort to make your data interoperable according to standards for data sharing or data labeling in medicine, such as SNOMED-CT? [13]| Interoperability is a hallmark for avances in digital medicine based on AI.[14]|
+
+## 3.3	Access to data
+
+In any given organisation that handles individuals’ data (whether someone is a user of the system or not), data protocols governing data access should be put in place. These protocols should outline who can access data and under which circumstances. Only duly qualified personnel with the competence and need to access individual’s data should be allowed to do so.
+
+| **Question**        | **Considerations**                     |
+|----------------------|---------------------------------------|
+| Describe and/or provide your data management plan.| This should include, not exhaustively, the data access protocol, a process protocol on who should have access to the training and the generated medical datasets and/or models, an access log for data access and altering.|

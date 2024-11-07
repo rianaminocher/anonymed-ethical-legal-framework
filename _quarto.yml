@@ -1,0 +1,39 @@
+project:
+  type: book
+
+book:
+  title: "ANONYMED Ethical-Legal Framework"
+  author: ""
+  date: ""
+  chapters:
+    - index.qmd
+    - 1_hum.qmd
+    - 2_rob.qmd  
+    - 3_pri.qmd  
+    - 4_tra.qmd  
+    - 5_div.qmd  
+    - 6_sus.qmd  
+    - 7_acc.qmd
+    - 8_bib.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    number-sections: false
+  pdf:
+    documentclass: scrreport
+    mainfont: "Arial"
+    sansfont: "Arial"
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \clearpairofpagestyles
+        \lofoot{ANONYMED}
+        \usepackage{graphicx}
+        \graphicspath{{images/}}
+        \usepackage{wrapfig}
+        \usepackage{blindtext}
+        \usepackage{subfiles}
+        \usepackage{multirow}
+        \usepackage[table,xcdraw]{xcolor}

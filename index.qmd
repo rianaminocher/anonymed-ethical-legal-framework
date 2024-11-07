@@ -1,0 +1,74 @@
+---
+title: "Introduction to the Ethical-Legal Framework"
+author: ""
+date: ""
+output:
+  html_document:
+    toc: true
+  pdf_document:
+    toc: true
+---
+
+## Overview
+
+This website-version of the ANONYMED Trustworthy AI Framework provides an easy-to-click-through resource for ethical development of the AI solutions within the ANONYMED toolbox. The framework thus accompanies the development of models within the ANONYMED project. 
+
+ANONYMED is focused on the creation of a methodological toolbox for privacy-preserving healthcare modelling, applicable for three different use cases in medicine (stroke, cardiology, and radiology). The toolbox provides two methods:
+
+  1) anonymization of **raw data** through privacy-preserving data synthesis with generative AI methods, and 
+  2) anonymization of **result data** after data protection-compliant data analysis, through homomorphic encryption (HE).
+
+While data generated with 1) is particularly suitable for training AI models for diagnostics, the use of HE is recommended if anonymization of data can impair the accuracy of the analyses. Both types of anonymization can be evaluated quantitatively in terms of their utility: on the basis of the precision of the predictions of the resulting AI models and the statistical analyses. At the same time, privacy metrics can be used to quantify the degree of anonymization.
+
+**Within this framework, we intend to enable AI developers to identify and tackle ethical considerations through the development of the AI toolbox.** 
+
+On one hand, this framework will serve as a resource for the developers of each of the use cases within the project to assess ethical justifiability of the tools developed, and for the ethics team to audit the project results. At a later stage, based on the feedback and project results, the framework will be adapted and updated, and will be provided publicly with the toolbox as a resource for end users.
+
+The framework considers general ethical challenges when developing medical AI but also considers specific challenges posed by the methods employed in the project, namely **generative AI, homomorphic encryption (HE), and differential privacy.** We also place a particular emphasis on considerations about privacy when using these methods for anonymization of health data for data-sharing or for training AI models.
+
+Given the scope of the ANONYMED project, the presented framework will focus exclusively on the EU region, with its legislative prerequisites, such as the GDPR. The framework also assumes that the toolbox is used in a research setting. 
+
+## Trustworthy AI for the ANONYMED Toolbox
+
+Our ethical framework structure follows the broad structure of the **Guidelines for Trustworthy AI** developed by the EU's High-Level Expert Group on Artificial Intelligence (AI HLEG). These guidelines aim to promote the development and deployment of AI systems that are safe, reliable, and respect fundamental rights and values. The guidelines include seven key principles for trustworthy AI that count as high-level norms and several sub-groups under these heading counting as mid-level norms:
+
+1.	[**Human agency and oversight**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Human%20agency)
+    1.	Fundamental rights
+    2.	Human agency
+    3.	Human oversight
+
+2.	[**Technical robustness and safety**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Robustness)
+    1.	Resilience to attack and security
+    2.	Fallback plan and general safety
+    3.	Accuracy
+    4.	Reliability and Reproducibility
+
+3.	[**Privacy and Data governance**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#privacy)
+    1.	Privacy and data protection
+    2.	Quality and integrity of data
+    3.	Access to data
+
+4.	[**Transparency**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Transparency)
+    1.	Traceability
+    2.	Explainability
+    3.	Communication
+
+5. [**Diversity, non-discrimination and fairness**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Diversity)
+    1.	Avoidance of unfair bias
+    2.	Accessibility and universal design
+    3.	Stakeholder participation
+
+6.	[**Societal and environmental well-being**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#well-being)
+    1.	Sustainable and environmentally friendly
+    2.	Social impact
+    3.	Society and Democracy
+
+7.	[**Accountability**](https://ec.europa.eu/futurium/en/ai-alliance-consultation/guidelines/1.html#Accountability)
+    1.	Auditability
+    2.	Minimisation and reporting of negative impacts
+    3.	Trade-offs
+    4.	Redress
+
+These guidelines define a structure of high- and mid-level norms. High-level norms are equivalent to high-level principles, for example “Transparency”. These principles are then further defined by mid-level norms, for example “Explainability”.
+
+For each mid-level norm, we provide ethical guidance in the form of questions. Our framework is not a checklist since it requires free form answers and it requires justifications. The checklist we devised is loosely based on the accompanying [Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment.](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)

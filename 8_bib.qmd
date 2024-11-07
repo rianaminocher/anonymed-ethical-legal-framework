@@ -1,0 +1,39 @@
+# Bibliography
+
+[1]	AI-HLEG, ‘Ethics Guidelines for Trustworthy AI’, FUTURIUM - European Commission. Accessed: Mar. 12, 2022. [Online]. Available: [https://ec.europa.eu/futurium/en/ai-alliance-consultation](https://ec.europa.eu/futurium/en/ai-alliance-consultation)
+
+[2]	‘Assessment List for Trustworthy Artificial Intelligence (ALTAI) for self-assessment | Shaping Europe’s digital future’. Accessed: Jan. 09, 2024. [Online]. Available: [https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment](https://digital-strategy.ec.europa.eu/en/library/assessment-list-trustworthy-artificial-intelligence-altai-self-assessment)
+
+[3]	A. Vassilev, ‘Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations’, National Institute of Standards and Technology, Gaithersburg, MD, NIST AI NIST AI 100-2e2023, 2024. [doi: 10.6028/NIST.AI.100-2e2023.](https://doi.org/10.6028/NIST.AI.100-2e2023)
+
+[4]	S. Lapuschkin, S. Wäldchen, A. Binder, G. Montavon, W. Samek, and K.-R. Müller, ‘Unmasking Clever Hans predictors and assessing what machines really learn’, \Nat. Commun.\, vol. 10, no. 1, Art. no. 1, Mar. 2019, [doi: 10.1038/s41467-019-08987-4.](https://www.nature.com/articles/s41467-019-08987-4)
+
+[5]	M. R. Munafò et al., ‘A manifesto for reproducible science’, \Nat. Hum. Behav.\, vol. 1, no. 1, p. 0021, Jan. 2017, [doi: 10.1038/s41562-016-0021.](https://www.nature.com/articles/s41562-016-0021)
+
+[6]	C. Ross, ‘AI gone astray: How subtle shifts in patient data send popular algorithms reeling, undermining patient safety’, \STAT News\, Feb. 28, 2022. Accessed: Nov. 23, 2023. [Online]. Available: [https://www.statnews.com/2022/02/28/sepsis-hospital-algorithms-data-shift/](https://www.statnews.com/2022/02/28/sepsis-hospital-algorithms-data-shift/)
+
+[7]	M. Giomi, F. Boenisch, C. Wehmeyer, and B. Tasnádi, ‘A Unified Framework for Quantifying Privacy Risk in Synthetic Data’. arXiv, Nov. 18, 2022. [doi: 10.48550/arXiv.2211.10459.](https://arxiv.org/abs/2211.10459)
+
+[8]	A. Chumak, ‘Which German Data Privacy Laws You Need to Comply With’, InCountry. Accessed: Dec. 20, 2023. [Online]. Available: [https://incountry.com/blog/which-german-data-privacy-laws-you-need-to-comply-with/](https://incountry.com/blog/which-german-data-privacy-laws-you-need-to-comply-with/)
+
+[9]	\Inspiration Exchange - Synthetic Data & Simulators\, (Nov. 07, 2023). Accessed: Dec. 20, 2023. [Online Video]. Available: [https://www.youtube.com/watch?v=TmRUk2VCOcU](https://www.youtube.com/watch?v=TmRUk2VCOcU)
+
+[10]	Data Provenance Initiative, ‘Data Provenance Explorer’. Accessed: Nov. 29, 2023. [Online]. Available: [https://www.dataprovenance.org/](https://www.dataprovenance.org/)
+
+[11]	S. Longpre et al., ‘The Data Provenance Initiative: A Large Scale Audit of Dataset Licensing & Attribution in AI’. arXiv, Nov. 04, 2023. Accessed: Nov. 29, 2023. [Online]. Available: [http://arxiv.org/abs/2310.16787](http://arxiv.org/abs/2310.16787)
+
+[12]	A. Jacobsen et al., ‘FAIR Principles: Interpretations and Implementation Considerations’, \Data Intell.\, vol. 2, no. 1–2, pp. 10–29, Jan. 2020, [doi: 10.1162/dint_r_00024.](https://direct.mit.edu/dint/article/2/1-2/10/10017/FAIR-Principles-Interpretations-and-Implementation)
+
+[13]	E. Chang and J. Mostafa, ‘The use of SNOMED CT, 2013-2020: a literature review’, \J. Am. Med. Inform. Assoc.\, vol. 28, no. 9, pp. 2017–2026, Sep. 2021, [doi: 10.1093/jamia/ocab084.](https://pubmed.ncbi.nlm.nih.gov/34151978/)
+
+[14]	M. Lehne, J. Sass, A. Essenwanger, J. Schepers, and S. Thun, ‘Why digital medicine depends on interoperability’, \Npj Digit. Med.\, vol. 2, no. 1, Art. no. 1, Aug. 2019, [doi: 10.1038/s41746-019-0158-1.](https://www.nature.com/articles/s41746-019-0158-1)
+
+[15]	M. Mitchell et al., ‘Model Cards for Model Reporting’, in \Proceedings of the Conference on Fairness, Accountability, and Transparency\, in FAT* ’19. Atlanta, GA, USA: Association for Computing Machinery, Jan. 2019, pp. 220–229. [doi: 10.1145/3287560.3287596.](https://dl.acm.org/doi/10.1145/3287560.3287596)
+
+[16]	S. Wachter, B. Mittelstadt, and C. Russell, ‘Bias Preservation in Machine Learning: The Legality of Fairness Metrics Under EU Non-Discrimination Law’, Social Science Research Network, Rochester, NY, SSRN Scholarly Paper ID 3792772, Jan. 2021. [doi: 10.2139/ssrn.3792772.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3792772)
+
+[17]	Boavizta, ‘Datavizta’, Why Datavizta? Accessed: Nov. 21, 2023. [Online]. Available: [https://dataviz.boavizta.org/](https://dataviz.boavizta.org/)
+
+[18]	E. Sarkar, E. Chielle, G. Gursoy, L. Chen, M. Gerstein, and M. Maniatakos, ‘Privacy-preserving cancer type prediction with homomorphic encryption’, \Sci. Rep.\, vol. 13, no. 1, p. 1661, Jan. 2023, [doi: 10.1038/s41598-023-28481-8.](https://www.nature.com/articles/s41598-023-28481-8)
+
+[19]	J. Whittlestone, R. Nyrup, A. Alexandrova, K. Dihal, and S. Cave, ‘Ethical and societal implications of algorithms, data, and artificial intelligence: a roadmap for research’. Available: [https://www.nuffieldfoundation.org/sites/default/files/files/Ethical-and-Societal-Implications-of-Data-and-AI-report-Nuffield-Foundat.pdf](https://www.nuffieldfoundation.org/sites/default/files/files/Ethical-and-Societal-Implications-of-Data-and-AI-report-Nuffield-Foundat.pdf)
